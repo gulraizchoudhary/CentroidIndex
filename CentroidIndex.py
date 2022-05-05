@@ -78,8 +78,4 @@ def CentroidIndex(LABELS1,GT):
     return CI
 
 
-LABELS1 = np.asarray([1, 2, 3, 1, 2, 3, 3, 4, 4, 4])
-GT = np.asarray([1, 2, 3, 1, 4, 2, 2, 4, 3, 1])
 
-CI = CentroidIndex(LABELS1,GT)
-print("Centroid Index: "+str(CI))
