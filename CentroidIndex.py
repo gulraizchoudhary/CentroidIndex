@@ -38,9 +38,9 @@ def compare(labels1, labels2, NUMBER_OF_CLUSTERS):
 
 
 
-def CentroidIndex(LABELS1,LABELS2, NUMBER_OF_CLUSTERS):
-    
-    matrix = compare(LABELS1, LABELS2, NUMBER_OF_CLUSTERS)
+def CentroidIndex(LABELS1,GT):
+    NUMBER_OF_CLUSTERS = len(set(GT))
+    matrix = compare(LABELS1, GT, NUMBER_OF_CLUSTERS)
     
     #1 for greeen, 2 for red and 3 for blue- where the value is close to both clusters
     m = np.zeros(shape=(len(matrix), len(matrix)))
@@ -81,5 +81,5 @@ def CentroidIndex(LABELS1,LABELS2, NUMBER_OF_CLUSTERS):
 LABELS1 = np.asarray([1, 2, 3, 1, 2, 3, 3, 4, 4, 4])
 GT = np.asarray([1, 2, 3, 1, 4, 2, 2, 4, 3, 1])
 
-CI = CentroidIndex(LABELS1,GT, 3)
+CI = CentroidIndex(LABELS1,GT)
 print("Centroid Index: "+str(CI))
