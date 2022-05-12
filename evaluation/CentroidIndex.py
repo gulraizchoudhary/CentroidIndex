@@ -19,7 +19,7 @@ def jaccard(x, y):
 def compare(labels1, labels2, NUMBER_OF_CLUSTERS):
     results = np.zeros((NUMBER_OF_CLUSTERS,NUMBER_OF_CLUSTERS))
     for n1 in range(0, NUMBER_OF_CLUSTERS):
-        indexes1 = np.where(labels1 == n1+1)
+        indexes1 = np.where(labels1 == n1)
         for n2 in range(0, NUMBER_OF_CLUSTERS):
             indexes2 = np.where(labels2 == n2+1)
             score = jaccard(indexes1[0], indexes2[0])
