@@ -1,4 +1,4 @@
-# Centroid Index: Clustering evaluation Algorithm
+# Centroid Index: Cluster Level Evaluation Algorithm
 Centroid Index is a cluster level measures and returns the number of mismatches between two solutions. A simple method and is useful when ground truth is available.
 
 ## Example 1: Cluster level similarity between k-means and k-means++ solutions using random dataset
