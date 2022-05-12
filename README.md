@@ -62,6 +62,21 @@ Mismatch between k-means and k-means++: 8
 !["Kmeans++ results on iteration: 0"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/kmp_0.png)
 !["Kmeans results on iteration: 0"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/km_0.png)
 
+!["Kmeans++ results on iteration: 1"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/kmp_01.png)
+!["Kmeans results on iteration: 1"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/km_01.png)
+
+!["Kmeans++ results on iteration: 2"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/kmp_02.png)
+!["Kmeans results on iteration: 2"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/km_02.png)
+
+!["Kmeans++ results on iteration: 3"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/kmp_03.png)
+!["Kmeans results on iteration: 3"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/km_03.png)
+
+!["Kmeans++ results on iteration: 4"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/kmp_04.png)
+!["Kmeans results on iteration: 4"](https://github.com/gulraizchoudhary/CentroidIndex/blob/main/img/km_04.png)
+
+
+
+
 
 
 ## Acknowledgements
