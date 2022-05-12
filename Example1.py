@@ -29,7 +29,7 @@ for i in range(5):
     CI = ci.CentroidIndex(km.labels_, kmp.labels_)
     print(f"Mismatch between k-means and k-means++: {CI}")
     
-    #plotting the kmeans results
+    #plotting the k-means results
     for j in np.unique(km.labels_):
          plt.scatter(X[km.labels_ == j , 0] , X[km.labels_ == j , 1] , label = j)
     plt.scatter(km.cluster_centers_[:,0] , km.cluster_centers_[:,1] , s = 80, color = 'k')
@@ -37,7 +37,7 @@ for i in range(5):
     plt.title("k-means results of iteration: "+str(i))
     plt.show()
     
-    #plotting the random swap results
+    #plotting the k-means++ results
     for j in np.unique(kmp.labels_):
          plt.scatter(X[kmp.labels_ == j , 0] , X[kmp.labels_ == j , 1] , label = j)
     plt.scatter(kmp.cluster_centers_[:,0] , kmp.cluster_centers_[:,1] , s = 80, color = 'k')
