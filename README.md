@@ -65,7 +65,7 @@ Mismatch between k-means and k-means++: 8
 
 
 ## Acknowledgements
-Credit goes to Pasi Fränt, You may consider to read his paper for more understanding "Efciency of random swap clustering", also credit to the scikit-learn team for their excellent sklearn.cluster.KMeans class.
+Credit goes to Pasi Fränt, You may consider to read his paper for more understanding "Centroid index: Cluster level similarity measure", also credit to the scikit-learn team for their excellent sklearn.cluster.KMeans class.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
